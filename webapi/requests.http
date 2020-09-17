@@ -1,0 +1,12 @@
+GET http://localhost:8000/tickets/api/123
+Accept: application/json
+
+
+###
+POST http://localhost:8000/tickets/api/create/ HTTP/1.0
+
+{
+    "number": 111,
+    "date": "2000-04-29",
+    "time": "10:00:00"
+}
