@@ -7,3 +7,4 @@ class Ticket(models.Model):
                                  validators=[MaxValueValidator(999), MinValueValidator(1)])
     date = models.DateField()
     time = models.TimeField()
+    image = models.ImageField()
